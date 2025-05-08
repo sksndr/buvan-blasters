@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>XO Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Game Logo" class="logo" />
+    <h1 class="game-heading">Play with Buvan</h1>
+
+    <div class="game-area">
+      <div class="grid-overlay">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+        <div class="grid-lines">
+          <div class="v-line v1"></div>
+          <div class="v-line v2"></div>
+        </div>
+      </div>
+
+      <img src="guy.png" alt="Character" class="character-image" />
+
+      <button id="refresh-button" class="refresh-button">Refresh Grid</button>
+      <div class="message" id="message">
+        <span id="buvan-wins">Buvan Wins 🏆</span>
+        <span id="you-win">You Win 🏅</span>
+        <span id="tie">Tie 🎉</span>
+      </div>
+    </div>
+
+     
+    </div>
+  </div>
+  <div class="scoreboard">
+    <div id="buvan-score">Buvan: 0</div>
+    <div id="you-score">You: 0</div>
+    <div id="tie-score">Tie: 0</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
